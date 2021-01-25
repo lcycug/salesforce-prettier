@@ -1,8 +1,6 @@
 {
-  "useTabs":false,
-  "printWidth":180,
-  "tabWidth":4,
   "trailingComma": "none",
+  "tabWidth": 4,
   "overrides": [
     {
       "files": "**/lwc/**/*.html",
@@ -11,6 +9,15 @@
     {
       "files": "*.{cmp,page,component}",
       "options": { "parser": "html" }
+    },
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json",
+        "tabWidth": 2
+      }
     }
-  ]
+  ],
+  "printWidth": 180,
+  "useTabs": false
 }
