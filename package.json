@@ -1,0 +1,25 @@
+{
+  "name": "salesforce-prettier",
+  "version": "1.0.0",
+  "description": "This prettier configuration file could help format SFDX projects.",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write *.{prettierrc,json}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcycug/salesforce-prettier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcycug/salesforce-prettier/issues"
+  },
+  "homepage": "https://github.com/lcycug/salesforce-prettier#readme",
+  "devDependencies": {
+    "@prettier/plugin-xml": "^1.1.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-apex": "^1.10.0"
+  }
+}
